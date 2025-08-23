@@ -1,0 +1,15 @@
+function Profile() {
+    return (
+        <div className="flex flex-col items-center text-center">
+            <img
+                src="putra.JPG" // pastikan ada di public/assets
+                alt="avatar"
+                className="w-24 h-24 rounded-full object-cover shadow-md"
+            />
+            <h1 className="mt-3 text-md font-bold">Ananda Prathama Saputra</h1>
+            <p className="text-gray-600 text-sm">PJPS Mengabdi</p>
+        </div>
+    )
+}
+
+export default Profile
