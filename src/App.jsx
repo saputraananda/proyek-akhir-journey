@@ -15,7 +15,7 @@ function App() {
     <div className="min-h-screen flex flex-col items-center bg-white text-black px-6 py-10 font-sans">
 
       {/* Toggle Buttons */}
-      <div className="flex gap-2 mb-6">
+      <div className="flex flex-wrap justify-center gap-2 mb-6 w-full">
         <button
           onClick={() => setMode("full")}
           className={`px-3 py-1.5 text-sm rounded-full border transition ${mode === "full"
