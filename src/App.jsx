@@ -7,9 +7,11 @@ import YouTubeEmbed from "./components/Video"
 import Title from "./components/Title"
 import Footer from "./components/Footer"
 import FAQ from "./components/Faq"
+import Membership from "./components/Membership"
 
 function App() {
   const [mode, setMode] = useState("full") // default full
+  const [isMemberOpen, setIsMemberOpen] = useState(false);
 
   return (
     <div className="min-h-screen flex flex-col items-center bg-white text-black px-6 py-10 font-sans">
@@ -55,8 +57,8 @@ function App() {
         </button>
         {/* Locked Member Button */}
         <button
-          disabled
-          className="px-3 py-1.5 text-sm rounded-full border border-red-500 text-red-500 bg-red-50 opacity-70 cursor-not-allowed"
+          onClick={() => setIsMemberOpen(true)}
+          className="px-3 py-1.5 text-sm rounded-full border border-red-500 text-red-500 bg-red-50 hover:bg-red-100 transition"
         >
           Member 🔒
         </button>
@@ -90,8 +92,8 @@ function App() {
           <Paragraph>
             <span className="font-bold">Kolokium atau Sempro</span> itu adalah presentasi Bab 1-3 aja, 1 sks, 50 menit.
             Idealnya dilakukan sebelum ujian magang. Jadi kisaran oktober-november itu udah sempro biar tepat waktu.
-            Dosen moderator (penguji) bakal dibagiin nanti setelah jalan beberapa bulan magang, Dosen Moderator di kolokium berbeda dengan.
-            Dosen Penguji di Semhas-Sidang{" "}
+            Dosen moderator (penguji) bakal dibagiin nanti setelah jalan beberapa bulan magang, Dosen Moderator di Kolokium berbeda dengan
+            Dosen Penguji di Semhas-Sidang.{" "}
             <span className="font-bold">
               Umumnya tidak ada tes coding pada sempro ini, karena hanya memaparkan rencana penelitian saja.
             </span>
@@ -101,22 +103,22 @@ function App() {
 
           <Title title="Seminar Hasil" />
           <Paragraph>
-            <span className="font-bold">Seminar Hasil atau Semihas</span> itu adalah presentasi Bab 4-5 aja, 1 sks, 50 menit.
+            <span className="font-bold">Seminar Hasil atau Semhas</span> adalah presentasi Bab 4-5, 1 sks, 50 menit.
             Idealnya dilakukan setelah 1-3 bulan setelah Sempro. Dosen penguji semhas ini bakal dibagiin nanti mendekati masa2 semhas dan
             Dosji Semhas juga menjadi Dosji Sidang. Seminar Hasil ini jarang ada test coding sih, tapi kalau dosen penguji kalian penasaran,{" "}
             <span className="font-bold">
               mungkin possible untuk test coding, tapi jarang sih, karena hanya 50 menit aja.
             </span>
           </Paragraph>
-          <Link text="Laporan Semhas" href="https://drive.google.com/file/d/1WvA2j2tWh1ChmsxxF9XWL8zMjWGA1o-a/view?usp=sharing" />
+          <Link text="Laporan Seminar Hasil" href="https://drive.google.com/file/d/1WvA2j2tWh1ChmsxxF9XWL8zMjWGA1o-a/view?usp=sharing" />
           <YouTubeEmbed videoId="fhL6PMkG-w8" />
 
           <Title title="Sidang" />
           <Paragraph>
-            <span className="font-bold">Sidang</span> itu adalah presentasi keseluruhan, baik dari penulisan, code, .
+            <span className="font-bold">Sidang</span> itu adalah presentasi keseluruhan, baik dari penulisan, code,
             aplikasi, dan lainnya. Idealnya dilakukan setelah 1 bulan setelah Semhas, karena revisi semhas seharusnya ga lama.
             Dosen penguji sidang ini sama seperti Semhas. Harus siap test coding, minimal tes SQL, tapi ga semua Dosen test coding,
-            karena banyak juga dosen yang fokus ke{" "}
+            karena banyak juga Dosen yang fokus ke{" "}
             <span className="font-bold">
               alur bisnis dan alur aplikasi.</span> Gw ada sih videonya, tapi masih dalam proses izin publikasi dari Dosen, karena sidang itu sifatnya tertutup.
           </Paragraph>
@@ -145,44 +147,14 @@ function App() {
       )}
 
       {/* Mode FAQ */}
-      {mode === "faq" && (
-        <div className="mt-6 w-full max-w-md">
-          <FAQ
-            question="Bang, trusted kaga ini link?"
-            answer="Insyallah yee, ini semua laporan yang gw cantumin sudah di TTD Dospem dan Dosji, jadi sudah melewati tahap koreksi. Tapi kalau kalian menemukan kejanggalan, typo, dll, mohon dimaklumi wkwk"
-          />
-          <FAQ
-            question="Bang, kenapa dospem gw 2 dah?"
-            answer="Gatau gw juga, tapi kayaknya kalau gw karena di rencana penelitian gw itu ada proses bisnis nya, jadi ditambahin dosen MAB sebagai dosen kedua."
-          />
-          <FAQ
-            question="Magang harus 900++ jam gasih bang? tempat magang gw banyak liburnya"
-            answer="Secara logbook iya, tapi aktualnya mah pinter pinter kalian aja. Kenapa harus 900++ jam? karena biar bisa dikonversi sks nya, aktualnya kalian magang 2 jam perhari juga gpp sebenernye mah, asal jangan ketauan wkwk"
-          />
-          <FAQ
-            question="Kolo tuh apaansih?"
-            answer="Kolo tuh pemaparan rencana penelitian, BAB 1-3."
-          />
-          <FAQ
-            question="Kolokium tuh berapa lama?"
-            answer="Cepet, cuma 50 menit (1sks), presentasi, tanya jawab, penutup dari dospem"
-          />
-          <FAQ
-            question="Judul TA tuh harus dari magang sekarang? kalau magang gw kaga IT gimana?"
-            answer="Ngga harus dari tempat magang lu kok, tapi ada baiknya diomongin ke dosen pembimbing kalian yaa"
-          />
-          <FAQ
-            question="Kenapa prodi nyuruh kita ambil judul TA dari magang?"
-            answer="Karena biar kalian gacape lagi dari 0, jadi kalian tinggal lanjutin laporan magang kalian biar bisa jadi TA juga, tinggal nambahin beberapa fitur aja yang kalian bisa kembangin dari laporan magang"
-          />
-          <FAQ
-            question="Bang, tempat magang gw kaga ada projek IT, gimana dong ini"
-            answer="Gapapa, kalian obrolin dlu aja sama Dospem, dan sebenernya boleh ko kalian buat projek sendiri, tapi harus disetor atau dilaporkan ke instansi kalian, walaupun instansi kalian GAK BUTUH sistem yang kalian buat"
-          />
-        </div>
-      )}
+      {mode === "faq" && <FAQ />}
 
+      {/* Footer */}
       <Footer />
+
+      {/* Modal Member */}
+      <Membership isOpen={isMemberOpen} onClose={() => setIsMemberOpen(false)} />
+
     </div>
   )
 }
