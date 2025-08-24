@@ -87,6 +87,7 @@ function App() {
             </span>
           </Paragraph>
           <Link text="Laporan Magang" href="https://drive.google.com/file/d/1VVDyBj-eDRYn91PDlcQ-aXE-iQ1mk5rp/view?usp=sharing" />
+          <Link text="Deck Presentasi Magang" href="https://drive.google.com/file/d/1-kHB_VPu5ST0wi1R-yqWh254Ug2imY-u/view?usp=sharing" />
 
           <Title title="Seminar Proposal" />
           <Paragraph>
@@ -99,6 +100,7 @@ function App() {
             </span>
           </Paragraph>
           <Link text="Laporan Kolokium" href="https://drive.google.com/file/d/1046KVeK_8J0uV8zR8Bnc9Kfdes4f0KLY/view?usp=sharing" />
+          <Link text="Deck Presentasi Kolokium" href="https://drive.google.com/file/d/1sh-vhhpvNpv2vwDsfAo4InaWVs3OghX1/view?usp=sharing" />
           <YouTubeEmbed videoId="PdXBWOFe9yk" />
 
           <Title title="Seminar Hasil" />
@@ -111,6 +113,7 @@ function App() {
             </span>
           </Paragraph>
           <Link text="Laporan Seminar Hasil" href="https://drive.google.com/file/d/1WvA2j2tWh1ChmsxxF9XWL8zMjWGA1o-a/view?usp=sharing" />
+          <Link text="Deck Presentasi Seminar" href="https://drive.google.com/file/d/1gg2b4nB7U2_aHxvBdSyIIHfD1Ijy6mq2/view?usp=sharing" />
           <YouTubeEmbed videoId="fhL6PMkG-w8" />
 
           <Title title="Sidang" />
@@ -123,6 +126,7 @@ function App() {
               alur bisnis dan alur aplikasi.</span> Gw ada sih videonya, tapi masih dalam proses izin publikasi dari Dosen, karena sidang itu sifatnya tertutup.
           </Paragraph>
           <Link text="Laporan Proyek Ahkir" href="https://drive.google.com/file/d/180QCMpcsYROcV8v8wAFINERd9gs-2IWQ/view?usp=sharing" />
+          <Link text="Deck Sidang" href="https://drive.google.com/file/d/13K_rJkiWOwHhd5JROlFfIRVvldLljqvP/view?usp=sharing" />
         </>
       )}
 
@@ -130,15 +134,21 @@ function App() {
         <>
           <Link text="Pembagian Dospem TPL 58" href="https://drive.google.com/file/d/1BtOiIOsDz0zNSz6lHpPe1pQlP7DyBMVK/view?usp=sharing" />
           <Link text="Laporan Magang" href="https://drive.google.com/file/d/1VVDyBj-eDRYn91PDlcQ-aXE-iQ1mk5rp/view?usp=sharing" />
+          <Link text="Deck Presentasi Magang" href="https://drive.google.com/file/d/1-kHB_VPu5ST0wi1R-yqWh254Ug2imY-u/view?usp=sharing" />
           <Link text="Laporan Kolokium" href="https://drive.google.com/file/d/1046KVeK_8J0uV8zR8Bnc9Kfdes4f0KLY/view?usp=sharing" />
+          <Link text="Deck Presentasi Kolokium" href="https://drive.google.com/file/d/1sh-vhhpvNpv2vwDsfAo4InaWVs3OghX1/view?usp=sharing" />
           <Link text="Laporan Semhas" href="https://drive.google.com/file/d/1WvA2j2tWh1ChmsxxF9XWL8zMjWGA1o-a/view?usp=sharing" />
+          <Link text="Deck Presentasi Seminar" href="https://drive.google.com/file/d/1gg2b4nB7U2_aHxvBdSyIIHfD1Ijy6mq2/view?usp=sharing" />
           <Link text="Laporan Proyek Ahkir" href="https://drive.google.com/file/d/180QCMpcsYROcV8v8wAFINERd9gs-2IWQ/view?usp=sharing" />
+          <Link text="Deck Sidang" href="https://drive.google.com/file/d/13K_rJkiWOwHhd5JROlFfIRVvldLljqvP/view?usp=sharing" />
           <Link text="PPKI Versi 4" href="https://drive.google.com/file/d/1zcJtHAF5dl8zjIenB-4kyxESWv5eAl6_/view?usp=sharing" />
         </>
       )}
 
       {mode === "video" && (
         <>
+          <Title title="Prolog" />
+          <YouTubeEmbed videoId="PdXBWOFe9yk" />
           <Title title="Kolokium" />
           <YouTubeEmbed videoId="PdXBWOFe9yk" />
           <Title title="Seminar Hasil" />
