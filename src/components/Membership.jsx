@@ -20,7 +20,7 @@ export default function Membership({ isOpen, onClose }) {
           <li>📑 Strategi kolokium</li>
           <li>📑 Strategi semhas</li>
           <li>📑 Strategi sidang</li>
-          <li>😱 Bahas dosen killer (?)</li>
+          <li>😱 Video bahas dosen (?)</li>
           <li>❓ Pertanyaan umum dosen pas kolokium</li>
           <li>💡 Seni merayu dosen</li>
         </ul>
@@ -30,7 +30,7 @@ export default function Membership({ isOpen, onClose }) {
         </h3>
         <ul className="list-disc pl-5 space-y-1 text-sm text-gray-700">
           <li>🔍 Review judul sidang kalian</li>
-          <li>📝 Konsultasi penulisan</li>
+          <li>📝 Konsultasi penulisan<span className="italic"> (bukan joki, tapi dibantu)</span></li>
           <li>
             💻 Konsultasi pembuatan sistem{" "}
             <span className="italic">(bukan joki, tapi dibantu)</span>
