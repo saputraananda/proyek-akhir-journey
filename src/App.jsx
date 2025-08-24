@@ -7,6 +7,7 @@ import YouTubeEmbed from "./components/Video"
 import Title from "./components/Title"
 import Footer from "./components/Footer"
 import FAQ from "./components/Faq"
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   const [mode, setMode] = useState("full") // default full
@@ -126,11 +127,11 @@ function App() {
 
       {mode === "link" && (
         <>
+          <Link text="Pembagian Dospem TPL 58" href="https://drive.google.com/file/d/1BtOiIOsDz0zNSz6lHpPe1pQlP7DyBMVK/view?usp=sharing" />
           <Link text="Laporan Magang" href="https://drive.google.com/file/d/1VVDyBj-eDRYn91PDlcQ-aXE-iQ1mk5rp/view?usp=sharing" />
           <Link text="Laporan Kolokium" href="https://drive.google.com/file/d/1046KVeK_8J0uV8zR8Bnc9Kfdes4f0KLY/view?usp=sharing" />
           <Link text="Laporan Semhas" href="https://drive.google.com/file/d/1WvA2j2tWh1ChmsxxF9XWL8zMjWGA1o-a/view?usp=sharing" />
           <Link text="Laporan Proyek Ahkir" href="https://drive.google.com/file/d/180QCMpcsYROcV8v8wAFINERd9gs-2IWQ/view?usp=sharing" />
-          <Link text="Pembagian Dospem TPL 58" href="https://drive.google.com/file/d/1BtOiIOsDz0zNSz6lHpPe1pQlP7DyBMVK/view?usp=sharing" />
           <Link text="PPKI Versi 4" href="https://drive.google.com/file/d/1zcJtHAF5dl8zjIenB-4kyxESWv5eAl6_/view?usp=sharing" />
         </>
       )}
@@ -183,6 +184,7 @@ function App() {
       )}
 
       <Footer />
+      <Analytics />
     </div>
   )
 }
