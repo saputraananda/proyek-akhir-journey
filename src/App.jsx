@@ -7,7 +7,6 @@ import YouTubeEmbed from "./components/Video"
 import Title from "./components/Title"
 import Footer from "./components/Footer"
 import FAQ from "./components/Faq"
-import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   const [mode, setMode] = useState("full") // default full
@@ -184,7 +183,6 @@ function App() {
       )}
 
       <Footer />
-      <Analytics />
     </div>
   )
 }
