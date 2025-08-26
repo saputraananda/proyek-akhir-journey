@@ -2,7 +2,7 @@ function Profile() {
     return (
         <div className="flex flex-col items-center text-center">
             <img
-                src="putra.jpeg" // pastikan ada di public/assets
+                src="putra.jpeg"
                 alt="avatar"
                 className="w-24 h-24 rounded-full object-cover shadow-md"
             />
