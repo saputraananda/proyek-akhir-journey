@@ -148,7 +148,7 @@ function App() {
       {mode === "video" && (
         <>
           <Title title="Prolog" />
-          <YouTubeEmbed videoId="PdXBWOFe9yk" />
+          <YouTubeEmbed videoId="3XS0aI8kiTs " />
           <Title title="Kolokium" />
           <YouTubeEmbed videoId="PdXBWOFe9yk" />
           <Title title="Seminar Hasil" />

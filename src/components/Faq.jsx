@@ -28,7 +28,7 @@ export default function Faq() {
   return (
     <div className="mt-6 w-full max-w-md">
       <FAQ
-        question="Bang, trusted kaga ini link?"
+        question="Bang, trusted kaga lu?"
         answer="Insyallah yee, ini semua laporan yang gw cantumin sudah di TTD Dospem dan Dosji, jadi sudah melewati tahap koreksi. Tapi kalau kalian menemukan kejanggalan, typo, dll, mohon dimaklumi wkwk"
       />
       <FAQ
@@ -40,7 +40,7 @@ export default function Faq() {
         answer="Secara logbook iya, tapi aktualnya mah pinter pinter kalian aja. Kenapa harus 900++ jam? karena biar bisa dikonversi sks nya, aktualnya kalian magang 2 jam perhari juga gpp sebenernye mah, asal jangan ketauan wkwk"
       />
       <FAQ
-        question="Kolo tuh apaansih?"
+        question="Kolokium tuh apaansih?"
         answer="Kolo tuh pemaparan rencana penelitian, BAB 1-3."
       />
       <FAQ
@@ -48,8 +48,24 @@ export default function Faq() {
         answer="Cepet, cuma 50 menit (1sks), presentasi, tanya jawab, penutup dari dospem"
       />
       <FAQ
+        question="Gw magang berdua, gw udah siap kolo, tapi teman gw belum siap, boleh ga gw maju sendiri?"
+        answer="Boleh kok, bebas, asal dospem lu ACC yaudah gas aja gausah nunggu temen lu, terkadang temenlu lah yang buat lu lama"
+      />
+      <FAQ
+        question="Boleh ga lewat batas tanggal kolokium yang dikasih prodi?"
+        answer="Boleh, gacuma kolo, semhas dan sidang juga boleh boleh aja, tapi semakin lama semakin hilang euforianya, dan bisa mundur timeline kalian. Dampaknya bisa bahaya kalau sidang kalian telat juga"
+      />
+      <FAQ
+        question="Ditest ga pas kolo?"
+        answer="Pada umumnya ngga, tapi siap siap aja kalau dosen moderator kalian kepo sama rencana penelitian kalian"
+      />
+      <FAQ
         question="Judul TA tuh harus dari magang sekarang? kalau magang gw kaga IT gimana?"
         answer="Ngga harus dari tempat magang lu kok, tapi ada baiknya diomongin ke dosen pembimbing kalian yaa"
+      />
+      <FAQ
+        question="Boleh ubah judul ga bang kalau udah kolokium?"
+        answer="Hmm, boleh atau ngga nya silahkan dikonsultasikan ke Dospem, tapi kalau ubah metode atau penambahan metode sih boleh boleh aja, seperti gw di kolo pakai metode least square, tapi pas di TA gw ubah jadi LSTM"
       />
       <FAQ
         question="Kenapa prodi nyuruh kita ambil judul TA dari magang?"
