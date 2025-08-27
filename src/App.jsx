@@ -99,7 +99,8 @@ function App() {
               Umumnya tidak ada tes coding pada sempro ini, karena hanya memaparkan rencana penelitian saja.
             </span>
           </Paragraph>
-          <Link text="Laporan Kolokium" href="https://drive.google.com/file/d/1046KVeK_8J0uV8zR8Bnc9Kfdes4f0KLY/view?usp=sharing" />
+          <Link text="Laporan Kolokium Asli (Jangan diikutin!)" href="https://drive.google.com/file/d/137kwnPSLmwYjgYE0RvvNPig_anZylodu/view?usp=sharing" />
+          <Link text="Laporan Kolokium Setelah Revisi ✅" href="https://drive.google.com/file/d/1x0WI7DPaIWbz1DeXuBdRpFgLBKdkRb4D/view?usp=sharing" />
           <Link text="Deck Presentasi Kolokium" href="https://drive.google.com/file/d/1sh-vhhpvNpv2vwDsfAo4InaWVs3OghX1/view?usp=sharing" />
           <YouTubeEmbed videoId="PdXBWOFe9yk" />
 
@@ -135,7 +136,8 @@ function App() {
           <Link text="Pembagian Dospem TPL 58" href="https://drive.google.com/file/d/1BtOiIOsDz0zNSz6lHpPe1pQlP7DyBMVK/view?usp=sharing" />
           <Link text="Laporan Magang" href="https://drive.google.com/file/d/1VVDyBj-eDRYn91PDlcQ-aXE-iQ1mk5rp/view?usp=sharing" />
           <Link text="Deck Presentasi Magang" href="https://drive.google.com/file/d/1-kHB_VPu5ST0wi1R-yqWh254Ug2imY-u/view?usp=sharing" />
-          <Link text="Laporan Kolokium" href="https://drive.google.com/file/d/1046KVeK_8J0uV8zR8Bnc9Kfdes4f0KLY/view?usp=sharing" />
+          <Link text="Laporan Kolokium Asli (Jangan diikutin!)" href="https://drive.google.com/file/d/137kwnPSLmwYjgYE0RvvNPig_anZylodu/view?usp=sharing" />
+          <Link text="Laporan Kolokium Setelah Revisi ✅" href="https://drive.google.com/file/d/1x0WI7DPaIWbz1DeXuBdRpFgLBKdkRb4D/view?usp=sharing" />
           <Link text="Deck Presentasi Kolokium" href="https://drive.google.com/file/d/1sh-vhhpvNpv2vwDsfAo4InaWVs3OghX1/view?usp=sharing" />
           <Link text="Laporan Semhas" href="https://drive.google.com/file/d/1WvA2j2tWh1ChmsxxF9XWL8zMjWGA1o-a/view?usp=sharing" />
           <Link text="Deck Presentasi Seminar" href="https://drive.google.com/file/d/1gg2b4nB7U2_aHxvBdSyIIHfD1Ijy6mq2/view?usp=sharing" />
