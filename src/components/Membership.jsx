@@ -39,7 +39,7 @@ export default function Membership({ isOpen, onClose }) {
 
         {/* Tombol Aksi */}
         <div className="flex gap-3 mt-6">
-          <button className="flex-1 bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-lg transition">
+          <button className="flex-1 bg-[#ce2881] text-white py-2 px-4 rounded-lg transition hover:opacity-80">
             Gabung Member (Soon)
           </button>
         </div>

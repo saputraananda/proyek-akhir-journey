@@ -21,8 +21,8 @@ function App() {
         <button
           onClick={() => setMode("full")}
           className={`px-3 py-1.5 text-sm rounded-full border transition ${mode === "full"
-            ? "border-green-500 text-green-600 bg-green-50"
-            : "border-gray-300 text-gray-500 hover:bg-gray-100"
+            ? "border-[#ce2881] bg-[#ce2881] text-white"
+            : "border-gray-300 text-[#273987] hover:bg-gray-100"
             }`}
         >
           Full
@@ -30,8 +30,8 @@ function App() {
         <button
           onClick={() => setMode("link")}
           className={`px-3 py-1.5 text-sm rounded-full border transition ${mode === "link"
-            ? "border-green-500 text-green-600 bg-green-50"
-            : "border-gray-300 text-gray-500 hover:bg-gray-100"
+            ? "border-[#ce2881] bg-[#ce2881] text-white"
+            : "border-gray-300 text-[#273987] hover:bg-gray-100"
             }`}
         >
           Links
@@ -39,8 +39,8 @@ function App() {
         <button
           onClick={() => setMode("video")}
           className={`px-3 py-1.5 text-sm rounded-full border transition ${mode === "video"
-            ? "border-green-500 text-green-600 bg-green-50"
-            : "border-gray-300 text-gray-500 hover:bg-gray-100"
+            ? "border-[#ce2881] bg-[#ce2881] text-white"
+            : "border-gray-300 text-[#273987] hover:bg-gray-100"
             }`}
         >
           Videos
@@ -49,8 +49,8 @@ function App() {
         <button
           onClick={() => setMode("faq")}
           className={`px-3 py-1.5 text-sm rounded-full border transition ${mode === "faq"
-            ? "border-green-500 text-green-600 bg-green-50"
-            : "border-gray-300 text-gray-500 hover:bg-gray-100"
+            ? "border-[#ce2881] bg-[#ce2881] text-white"
+            : "border-gray-300 text-[#273987] hover:bg-gray-100"
             }`}
         >
           FAQ
@@ -123,9 +123,9 @@ function App() {
             Dosen penguji sidang ini sama seperti Semhas. Harus siap test coding, minimal tes SQL, tapi ga semua Dosen test coding,
             karena banyak juga Dosen yang fokus ke{" "}
             <span className="font-bold">
-              alur bisnis dan alur aplikasi.</span> Gw ada sih videonya, tapi masih dalam proses izin publikasi dari Dosen, karena sidang itu sifatnya tertutup.
+              alur bisnis dan alur aplikasi.</span> Gw ada sih videoclipnya, tapi masih dalam proses izin publikasi dari Dosen, karena sidang itu sifatnya tertutup.
           </Paragraph>
-          <Link text="Laporan Proyek Ahkir" href="https://drive.google.com/file/d/180QCMpcsYROcV8v8wAFINERd9gs-2IWQ/view?usp=sharing" />
+          <Link text="Laporan Proyek Ahkir" href="https://repository.ipb.ac.id/bitstream/handle/123456789/166830/fulltext_J0303211186_749e91a60945463999f8c1b2874e64c7.pdf?sequence=-1&isAllowed=n" />
           <Link text="Deck Sidang" href="https://drive.google.com/file/d/13K_rJkiWOwHhd5JROlFfIRVvldLljqvP/view?usp=sharing" />
         </>
       )}
@@ -139,7 +139,7 @@ function App() {
           <Link text="Deck Presentasi Kolokium" href="https://drive.google.com/file/d/1sh-vhhpvNpv2vwDsfAo4InaWVs3OghX1/view?usp=sharing" />
           <Link text="Laporan Semhas" href="https://drive.google.com/file/d/1WvA2j2tWh1ChmsxxF9XWL8zMjWGA1o-a/view?usp=sharing" />
           <Link text="Deck Presentasi Seminar" href="https://drive.google.com/file/d/1gg2b4nB7U2_aHxvBdSyIIHfD1Ijy6mq2/view?usp=sharing" />
-          <Link text="Laporan Proyek Ahkir" href="https://drive.google.com/file/d/180QCMpcsYROcV8v8wAFINERd9gs-2IWQ/view?usp=sharing" />
+          <Link text="Laporan Proyek Ahkir" href="https://repository.ipb.ac.id/bitstream/handle/123456789/166830/fulltext_J0303211186_749e91a60945463999f8c1b2874e64c7.pdf?sequence=-1&isAllowed=n" />
           <Link text="Deck Sidang" href="https://drive.google.com/file/d/13K_rJkiWOwHhd5JROlFfIRVvldLljqvP/view?usp=sharing" />
           <Link text="PPKI Versi 4" href="https://drive.google.com/file/d/1zcJtHAF5dl8zjIenB-4kyxESWv5eAl6_/view?usp=sharing" />
         </>

@@ -5,7 +5,7 @@ function Link({ text, href }) {
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="block w-full border border-green-600 text-center py-3 rounded-lg text-gray-800 font-medium hover:bg-green-50 transition"
+       className="block w-full border border-[#ce2881] text-center py-3 rounded-lg text-gray-800 font-medium hover:bg-pink-50 transition"
       >
         {text}
       </a>
