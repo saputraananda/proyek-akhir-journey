@@ -48,6 +48,10 @@ export default function Faq() {
         answer="Cepet, cuma 50 menit (1sks), presentasi, tanya jawab, penutup dari dospem"
       />
       <FAQ
+        question="Gw bisa liat referensi judul dimana bang?"
+        answer="Di Repository IPB yaa, disana ada judul2 TA 58 dan angkatan sebelum2nya"
+      />
+      <FAQ
         question="Gw magang berdua, gw udah siap kolo, tapi teman gw belum siap, boleh ga gw maju sendiri?"
         answer="Boleh kok, bebas, asal dospem lu ACC yaudah gas aja gausah nunggu temen lu, terkadang temenlu lah yang buat lu lama"
       />
